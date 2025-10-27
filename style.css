@@ -24,9 +24,9 @@ header {
     align-items: center;
 }
 
-height: 5px;
-width: 15%;
-}
+height 
+width 
+
 
 .menu {
     display: flex;
@@ -120,4 +120,16 @@ footer {
     justify-content: center;
     color: var(--preto);
     font-size: 18px;
+}
+
+/* Produtos */
+
+.produtos{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.produtos h2{
+    font-family: var(--titulo);
+    font-size: 40px;
 }
