@@ -1,22 +1,22 @@
-:root{
-    --azul-forte: #22577aff;
-    --ciano: #38a3a5ff;
-    --esmeralda: #57cc99ff;
-    --verde-claro: #80ed99ff;
-    --verde: #c7f9ccff;
+:root {
+    --azul-forte: rgb(97, 97, 97);
+    --ciano: rgb(0, 0, 0);
+    --esmeralda: rgb(204, 192, 87);
+    --verde-claro: rgb(204, 192, 128);
+    --verde: rgb(204, 192, 87);
     --branco: #F6F1E9;
     --preto: #000000;
     --texto: "Playfair Display", serif;
     --titulo: "Limelight", sans-serif;
 }
 
-body{
+body {
     background-color: var(--ciano);
     font-family: var(--texto);
     margin: 0;
 }
 
-header{
+header {
     background-color: var(--azul-forte);
     display: flex;
     justify-content: space-around;
@@ -24,12 +24,12 @@ header{
     align-items: center;
 }
 
-.img-logo{
+.img-logo {
     width: 10%;
     border-radius: 100%;
 }
 
-.menu{
+.menu {
     display: flex;
     list-style: none;
     gap: 30px;
@@ -38,17 +38,17 @@ header{
     text-transform: uppercase;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: var(--verde);
 }
 
-.menu a:hover{
+.menu a:hover {
     color: var(--preto);
-    transition: 0.5s; 
+    transition: 0.5s;
 }
 
-.capa{
+.capa {
     width: 100%;
     height: auto;
     display: flex;
@@ -57,61 +57,63 @@ header{
     overflow: hidden;
 }
 
-.capa img{
+.capa img {
     width: 100%;
     height: auto;
-    display:block;
+    display: block;
     object-fit: cover;
 }
 
-.apresentacao{
+.apresentacao {
     font-family: var(--titulo);
     text-align: center;
     margin: 30px 0;
 }
 
 
-.apresentacao h2{
+.apresentacao h2 {
     color: var(--verde-claro);
     font-size: 50px;
 }
 
-.apresentacao p{
+.apresentacao p {
     color: var(--esmeralda);
     font-size: 25px;
     font-family: var(--texto);
 }
 
-.sobre{
+.sobre {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px 0;
     gap: 5px;
 }
-.sobre div{
+
+.sobre div {
     width: 40%;
     text-align: center;
 }
-.sobre-img img{
+
+.sobre-img img {
     width: 50%;
     border-radius: 0px 20px 0 20px;
     box-shadow: 3px 3px 10px #130f21;
 }
 
-.sobre h2{
+.sobre h2 {
     font-family: var(--titulo);
     font-size: 40px;
     color: var(--verde-claro);
     margin-bottom: 15px;
 }
 
-.sobre p{
+.sobre p {
     font-size: 24px;
     color: var(--esmeralda);
 }
 
-footer{
+footer {
     background-color: var(--azul-forte);
     height: 100px;
     display: flex;
@@ -123,33 +125,63 @@ footer{
 
 /* Produtos */
 
-.produtos{
+.produtos {
     padding: 40px 0;
     text-align: center;
 }
 
-.produtos h2{
+.produtos h2 {
     font-family: var(--titulo);
     font-size: 40px;
     color: var(--verde-claro);
     margin: 40px 0;
 }
 
-.lista-produtos{
+.lista-produtos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.produto{
+.produto {
     background-color: var(--verde-claro);
     width: 27%;
     padding: 20px;
     border-radius: 10px;
 }
 
-.produto img{
+.produto img {
     width: 100%;
     border-radius: 10px;
+}
+
+.serviço h3 {
+    font-family: var(--titulo);
+    color: s var(--branco);
+    font-size: 24px;
+}
+
+.serviço p {
+    font-family: var(--texto);
+    color: var(--branco);
+    font-size: 18px;
+    font-style: italic;
+}
+
+.serviço button {
+    padding: 10px 24px;
+    font-size: 16px;
+    font-family: var(--texto);
+    background-color: var(--azul-coisado);
+    color: var(--branco);
+    border: none;
+    border-radius: 12px;
+
+}
+
+.serviço button:hover {
+    background-color: var(--preto);
+    transition: 0.5s;
+    cursor: pointer;
 }
