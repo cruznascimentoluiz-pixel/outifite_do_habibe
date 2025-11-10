@@ -1,23 +1,22 @@
 :root {
-    --azul-forte: rgb(97, 97, 97);
-    --ciano: rgb(0, 0, 0);
-    --esmeralda: rgb(204, 192, 87);
-    --verde-claro: rgb(204, 192, 128);
-    --verde: rgb(204, 192, 87);
+    --cinza: rgb(97, 97, 97);
+    --preto: rgb(0, 0, 0);
+    --dourado: rgb(204, 192, 87);
+    --dourado-claro: rgb(204, 192, 128);
+    --dourado-escuro: rgb(204, 192, 87);
     --branco: #F6F1E9;
-    --preto: #000000;
     --texto: "Playfair Display", serif;
     --titulo: "Limelight", sans-serif;
 }
 
 body {
-    background-color: var(--ciano);
+    background-color: var(--cinza);
     font-family: var(--texto);
     margin: 0;
 }
 
 header {
-    background-color: var(--azul-forte);
+    background-color: var(--preto);
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -40,7 +39,7 @@ header {
 
 .menu a {
     text-decoration: none;
-    color: var(--verde);
+    color: var(--dourado-escuro);
 }
 
 .menu a:hover {
@@ -72,12 +71,12 @@ header {
 
 
 .apresentacao h2 {
-    color: var(--verde-claro);
+    color: var(--dourado-claro);
     font-size: 50px;
 }
 
 .apresentacao p {
-    color: var(--esmeralda);
+    color: var(--dourado);
     font-size: 25px;
     font-family: var(--texto);
 }
@@ -104,22 +103,22 @@ header {
 .sobre h2 {
     font-family: var(--titulo);
     font-size: 40px;
-    color: var(--verde-claro);
+    color: var(--dourado-claro);
     margin-bottom: 15px;
 }
 
 .sobre p {
     font-size: 24px;
-    color: var(--esmeralda);
+    color: var(--do);
 }
 
 footer {
-    background-color: var(--azul-forte);
+    background-color: var(--preto);
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--esmeralda);
+    color: var(--dourado);
     font-size: 18px;
 }
 
@@ -133,7 +132,7 @@ footer {
 .produtos h2 {
     font-family: var(--titulo);
     font-size: 40px;
-    color: var(--verde-claro);
+    color: var(--dourado-claro);
     margin: 40px 0;
 }
 
@@ -145,7 +144,7 @@ footer {
 }
 
 .produto {
-    background-color: var(--verde-claro);
+    background-color: var(--dourado-claro);
     width: 27%;
     padding: 20px;
     border-radius: 10px;
@@ -158,7 +157,7 @@ footer {
 
 .serviço h3 {
     font-family: var(--titulo);
-    color: s var(--branco);
+    color: var(--branco);
     font-size: 24px;
 }
 
@@ -173,7 +172,7 @@ footer {
     padding: 10px 24px;
     font-size: 16px;
     font-family: var(--texto);
-    background-color: var(--azul-coisado);
+    background-color: var(--dourado-escuro);
     color: var(--branco);
     border: none;
     border-radius: 12px;
