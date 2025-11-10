@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root {
     --cinza: rgb(97, 97, 97);
     --preto: rgb(0, 0, 0);
@@ -10,13 +12,13 @@
 }
 
 body {
-    background-color: var(--cinza);
+    background-color: var(--preto);
     font-family: var(--texto);
     margin: 0;
 }
 
 header {
-    background-color: var(--preto);
+    background-color: var(--cinza);
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -24,7 +26,7 @@ header {
 }
 
 .img-logo {
-    width: 10%;
+    width: 25%;
     border-radius: 100%;
 }
 
@@ -97,7 +99,7 @@ header {
 .sobre-img img {
     width: 50%;
     border-radius: 0px 20px 0 20px;
-    box-shadow: 3px 3px 10px #130f21;
+    box-shadow: 3px 3px 10px #000000;
 }
 
 .sobre h2 {
@@ -109,11 +111,11 @@ header {
 
 .sobre p {
     font-size: 24px;
-    color: var(--do);
+    color: var(--dourado-escuro);
 }
 
 footer {
-    background-color: var(--preto);
+    background-color: var(--cinza);
     height: 100px;
     display: flex;
     align-items: center;
@@ -155,32 +157,32 @@ footer {
     border-radius: 10px;
 }
 
-.serviço h3 {
+.produto h3 {
     font-family: var(--titulo);
-    color: var(--branco);
+    color: var(--preto);
     font-size: 24px;
 }
 
-.serviço p {
+.produto p {
     font-family: var(--texto);
-    color: var(--branco);
+    color: var(--preto);
     font-size: 18px;
     font-style: italic;
 }
 
-.serviço button {
+.produto button {
     padding: 10px 24px;
     font-size: 16px;
     font-family: var(--texto);
-    background-color: var(--dourado-escuro);
+    background-color: var(--preto);
     color: var(--branco);
     border: none;
     border-radius: 12px;
 
 }
 
-.serviço button:hover {
-    background-color: var(--preto);
+.produto button:hover {
+    background-color: var(--cinza);
     transition: 0.5s;
     cursor: pointer;
 }
